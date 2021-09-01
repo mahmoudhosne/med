@@ -1,0 +1,356 @@
+@media only screen and (max-width:1200px){
+    .main-nav a{
+        padding: 2% 6%;
+        margin-right: 2%;
+    }  
+    .left-btn{
+          padding-left: 5%;
+      }
+      .right-btn{
+          padding-right: 10%;
+      }
+      .photo img {
+        height: 600px;
+      }
+      .head-title{
+          padding-left: 5%;
+      }
+      .text-three {
+        padding-left: 5%;
+      }
+      .text-three h4{
+          font-size: 220%;
+      }
+      .photo-right img {
+        height: 320px;
+    }
+    .head-title{
+        font-size: 80%;
+    }
+    @media only screen and (max-width:1023px){
+        .main-nav a {
+            margin-left: 4.9%;
+            padding: 2% 3%;
+        }
+        .photo img {
+        height: 500px;
+    }
+    .first-col i {
+        font-style: 160%;
+    }
+    .first-col h5{
+        font-size: 69%;
+    }
+    .first-col p{
+        font-size: 53%;
+    }
+    .right-col h4 {
+        font-size: 150%;
+    }
+    .right-col{
+        padding: 3% 3%
+    }
+    .right-col p{
+        line-height: 140%;
+    }
+    .right-col a:link,
+    .right-col a:visited{
+         margin-left: 16%;
+         font-size: 50%;
+     } 
+     .doctor-photo{
+         height: 538px;
+     }
+     .doctor-photo img{
+         height: 502px;
+     }
+     .text h4 {
+        font-size: 139%;
+     }
+     .text p {
+        font-size: 71%;
+        padding-bottom: 11%;
+        line-height: 176%;
+    }
+    .text .btn-two:link,
+    .text .btn-two:visited {
+       font-size: 54%;   
+     }
+     .text-three h4 {
+        font-size: 173%;
+     }
+     .text-three p {
+        font-size: 71%;
+        line-height: 192%;
+    }
+    .photo-right img {
+        height: 268px;
+    }
+    .text-three p:last-of-type{
+        font-size: 85%;
+        padding:1% 0;
+    }
+    .text-three span {
+        font-size: 130%;
+    }
+    .team img {
+        height: 147px;
+    }
+    .one-col h5 {
+        font-size: 156%;
+    }
+    .label h5 {
+        font-size: 154%;
+        width: 57%;
+    }
+    input, textarea{
+        width: 90%;
+        font-size: 75%;
+    }
+    textarea{
+        height: 70px;
+    }
+    input[type="submit"]{
+        font-size: 69%;
+    }
+}
+@media only screen and (max-width:767px){
+    .left-btn a:link,
+    .left-btn a:visited {
+        font-size: 103%;
+    } 
+    .main-nav a {
+        margin-left: 4%;
+        padding: 2% 2%;
+        font-size: 68%;
+    }
+    .left-btn a:link,
+    .left-btn a:visited {
+        font-size: 130%;
+    }
+    .right-col h4 {
+        font-size: 62%;
+    }
+    .right-col h5 {
+        font-size: 63%;
+    }
+    .right-col p {
+        font-size: 50%;
+    }
+    
+    .right-btn a:link, .right-btn a:visited {
+        font-size: 80%;
+    }
+    .photo img {
+        height: 393px;
+    }
+    h1{
+        font-size: 220%;
+    }
+    .head-title p {
+        font-size: 75%;
+    }
+    }
+    
+    .right-col {
+        margin-top: -25%;
+    }
+    .right-col a:link,
+    .right-col a:visited {
+        margin-left: 6%;
+        font-size: 45%;
+    }
+    .first-col{
+        margin-left: 12%;
+    }
+    .first-col i{
+        font-size: 150%;
+    }
+    .first-col h5 {
+        font-size: 44%;
+    }
+    .first-col p {
+        display: none;
+    }
+    .doctor-photo{
+        width: 55%;
+        height: 294px;
+    }
+    .doctor-photo img {
+        height: 322px;
+    }
+    .doctor-photo {
+        height: 343px;
+    }
+    .text{
+        width: 41%;
+        padding-top: 3%;
+    }
+    .text h5 {
+        font-size: 100%;
+    }
+    .text h4 {
+        font-size: 88%;
+        padding: 2% 0;
+    }
+    .text p {
+        font-size: 62%;
+        padding-bottom: 6%;
+        width: 94%;
+        line-height: 129%;
+    }
+    .text p:last-of-type {
+        font-size: 59%;
+    }
+    .photo-right img {
+        height: 173px;
+    }
+    .text-three h4 {
+        font-size: 110%;
+    }
+    .text-three p {
+        font-size: 64%;
+        line-height: 130%;
+    }
+    text-three p:last-of-type{
+        font-size: 62%;
+    }
+    .text-three span {
+        font-size: 80%;
+    }
+    .team h5{
+        font-size: 80%;
+    }
+    .team p {
+        font-size: 53%;
+    }
+    .team img {
+        height: 94px;
+    }
+    .heading h2 {
+        font-size: 113%;
+    }
+    .one-col h5 {
+        font-size: 88%;
+    }
+    
+    .one-col h5 {
+        font-size: 88%;
+    }
+    .one-col img {
+        width: 328px;
+        height: 255px;
+    }
+    .one-col p {
+        width: 90%;
+        font-size: 67%;
+        padding-bottom: 1%;
+        line-height: 148%;
+    }
+    .label h5 {
+        font-size: 108%;
+        width: 50%;
+    }
+    input, textarea {
+        width: 95%;
+        font-size: 53%;
+        margin-bottom: 4%;
+        padding: 2%;
+    }
+    input[type="submit"] {
+        font-size: 45%;
+    }
+    textarea{
+        height: 50px;
+    }
+    footer{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:480px){
+    .left-btn a:link, .left-btn a:visited {
+        font-size: 89%;
+    }
+    .main-nav a {
+        margin-left: -1%;
+        font-size: 52%;
+}
+    h1 {
+    font-size: 190%;
+    }
+    .right-btn a:link, .right-btn a:visited {
+        display: none;
+    }
+    .photo img {
+        height: 393px;
+        margin-bottom: -24%;
+    }
+    .right-col p {
+        font-size: 40%;
+    }
+    .right-col a:link, .right-col a:visited {
+        font-size: 27%;
+    }
+    .right-col h5 {
+        font-size: 48%;
+    }
+    .right-col h4 {
+        font-size: 38%;
+    }
+    .first-col i {
+        font-size: 128%;
+    }
+    .first-col h5 {
+        font-size: 32%;
+    }
+    .doctor-photo{
+        float: none;
+        width: 70%;
+        margin: auto;
+        height: 160px;
+    }
+    .doctor-photo img {
+        height: 147px;
+    }
+    .text{
+        float: none;
+        width: 100%;
+        margin-left: 4%;
+        font-size: 85%;
+    }
+    .text p:last-of-type {
+        font-size: 65%;
+    }
+    .one-col p{
+        margin-right: 18%;
+        font-size: 51%;
+        width:70%
+    }
+    .one-col span {
+        font-size: 76%;
+        margin-right: 8%;
+    }
+    .col:first-child {
+        width: 100%;
+    }
+
+    .label{
+        width: 100%;
+    }
+    .label h5{
+        width: 60%;
+        margin: auto;
+        font-size: 87%;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    input[type="submit"] {
+       
+        margin: auto;
+    }
+}

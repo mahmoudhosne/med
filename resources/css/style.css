@@ -1,0 +1,464 @@
+/* ================BASIC COLOR===#9FD9DD========= */
+/* ================COLOR FOR HOVER BTN =#7ca7aa= */
+*:focus{
+  outline: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+html{
+  overflow-x: hidden;
+  font-family: 'lato', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+  color: #555;
+}
+html a{
+  text-decoration: none;
+}
+/*===========================================*/
+/*           REUSEABLE COMPONENTS           */
+/*=========================================*/
+.row{
+  max-width: 1140px;
+  margin: auto;
+}
+section{
+  padding: 30px 0 30px 0;
+}
+p{
+  font-family: 'roboto',sans-serif;
+}
+/* =================================== */
+/* =================================== */
+/*         HEADING                    */
+/* ================================= */
+h1{
+  font-family: 'Playfair Display', sans-serif;
+  color: #9FD9DD;
+  font-size: 300%;
+  text-transform: capitalize;
+  margin-bottom: 2%;
+}
+h4{
+  color: #9FD9DD;
+  font-family: 'Playfair Display',sans-serif;
+}
+h5{
+  font-family: 'playfair Display',sans-serif;
+  text-transform: capitalize;
+  color: black;
+  font-size: 75%;
+}
+i{
+  color: #9FD9DD;
+  font-size: 250%;
+  
+}
+/* ==============buttons=================== */
+
+
+/* ======================================== */
+nav{
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  position: fixed;
+  width:100%;
+}
+.main-nav{
+ margin: auto;
+  width: 100%;
+  direction: rtl;
+  text-align: center;
+  padding: 2% 0;
+}
+.main-nav a{
+  color: rgb(133, 131, 131);
+  font-size: 80%;
+  transition: 0.30s;
+  padding: 0 6%;
+}
+.main-nav a:hover{
+  color: black;
+}
+/* ==================header============== */
+header{
+  background-color: #E4E4E4;
+}
+.left-btn {
+  padding-top: 15%;
+}
+.left-btn a:link,
+.left-btn a:visited{
+  color:rgba(153, 151, 151, 0.767);
+  font-size: 150%;
+}
+.photo{
+  margin-bottom: -6.9%;
+}
+.photo img{
+  height: 690px;
+}
+.right-btn{
+  padding-top: 30%;
+  text-align: end;
+}
+.right-btn a:link,
+.right-btn a:visited{
+    color: #98D8D6;
+    font-size: 130%;
+    text-transform: capitalize;
+    transition: color 0.30s;
+   
+}
+.right-btn a:hover,
+.right-btn a:active{
+  color:#7ca7aa ;
+}
+.head-title{
+  padding-top: 30%;
+}
+.head-title h4{
+  margin-bottom: -4%;
+}
+.head-title p{
+  font-size: 96%;
+  padding-bottom: 9%;
+  width: 92%;
+  font-weight: 400;
+}
+.head-title a:link,
+.head-title a:visited{
+  padding: 3% 7%;
+  background-color: #9FD9DD;
+  color: white;
+  font-size: 65%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: background 0.30s;
+
+}
+.head-title a:hover,
+.head-title a:active{
+  background-color:#7ca7aa ;
+}
+/* ==================================== /*
+/*         SECTION-INFO               */
+/* ================================= */
+.four-col{
+  width: 100%;
+  margin: auto;
+  padding-top: 7%;
+  padding-right: 4%;
+}
+.left-col{
+  width: 70%;
+}
+.first-col{
+  text-align:justify;
+  width: 20%;
+  float: left;
+  margin-bottom: 11%;
+  margin-left: 10%;
+}
+.first-col i{
+ display: inline-block;
+ padding-bottom: 11%;
+  
+}
+.first-col h5{
+  padding-bottom: 10%;
+  font-size: 104%;
+}
+.first-col p{
+    font-size: 75%;
+    font-weight: 400;
+}
+.right-col{
+  width: 28%;
+  float: right;
+  background-color: #9FD9DD;
+  margin-top: -24%;
+  border-radius: 9px;
+  padding: 8% 3%;
+}
+.right-col h5{
+  font-size: 120%;
+}
+.right-col h4{
+  color: black;
+  font-size: 240%;
+  padding: 7% 0;
+}
+.right-col p{
+  font-size: 68%;
+  line-height: 160%;
+  padding-bottom: 14%;
+}
+.right-col a:link,
+.right-col a:visited{
+  color: #9FD9DD;
+  background-color: #FFFFFF;
+  padding: 4% 12%;
+  font-size: 92%;
+  letter-spacing: 2px;
+  border-radius: 32px;
+  text-transform: capitalize;
+  transition: all 0.50s;
+}
+.right-col a:hover,
+.right-col a:active{
+  background-color: #7ca7aa;
+  color: #FFFFFF;
+}
+/* =============================================== */
+/*              SECTION-PROVIEDS                  */
+/* ============================================  */
+.photo-left{
+  width: 100%;
+  margin: auto;
+}
+
+.doctor-photo{
+  float: left;
+  width: 60%;
+  height: 670px;
+  background-color: #9FD9DD;
+  text-align: center;
+  border-radius: 10px;
+}
+.doctor-photo img{
+  width: auto;
+  height: 616px;
+  margin-top: 8%;
+  margin-bottom: -5.3%;
+}
+.text{
+  float: right;
+  width: 37%;
+  padding-top: 6%;
+}
+  .text h5{
+    font-size: 120%;
+  }
+  .text h4{
+    font-size: 225%;
+    padding: 7% 0;
+  }
+  .text p{
+    font-size: 85%;
+    padding-bottom: 6%;
+    line-height: 160%;
+
+  }
+  .text p:last-of-type{
+      font-weight: bold;
+  }
+  .text .btn-two:link,
+  .text .btn-two:visited{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: #9FD9DD;
+    padding: 3% 9%;
+    border-radius: 43px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 92%;
+    transition: all 0.50s;
+  }
+  .text .btn-two:hover,
+  .text .btn-two:active{
+    background-color: #7ca7aa;
+    color:white ;
+  }
+/* =============================================== */
+/*            SECTION-GET ONLINE                  */
+/* ============================================= */
+.get-online{
+  padding-top: 5%;
+}
+.text-three{
+  padding-top: 7%;
+}
+.text-three h4{
+  font-size: 270%;
+  width: 60%;
+  padding-bottom: 4%;
+}
+.text-three p{
+  font-size: 80%;
+  line-height: 200%;
+}
+.text-three p:last-of-type{
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 107%;
+  color: black;
+  padding: 2%  0;
+}
+.text-three span{
+    color: black;
+    font-size: 130%;
+    font-family: 'Playfair Display';
+    letter-spacing: 3px;
+    font-size: 165%;
+    font-weight: bolder;
+}
+  
+
+.photo-right{
+
+}
+.photo-right img{
+      height: 394px;
+  
+}
+/* ==================================================== */
+/*                 SECTION OUR TEAM                   */
+/* ================================================ */
+.heading{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+.heading h2{
+  color: black;
+  font-family: 'playfair display', sans-serif;
+  font-size: 270%;
+}
+.team{
+  text-align: center;
+  
+}
+.team img{
+  height: 230px;
+  border-radius: 10%;
+  
+}
+.team h5{
+  padding: 0% 0 4% 0;
+  font-size: 120%;
+}
+.team p{
+  font-size: 80%;
+  color: #808080;
+}
+/* =========================================== */
+/*               SECTION TESTMONIALS          */
+/* ========================================= */
+.testmonials{
+  background-color: #9FD9DD;
+  color: black;
+  margin-top: 6%;
+}
+.one-col{
+  text-align: center;
+  margin: auto;
+}
+.one-col h5{
+  font-size: 205%;
+}
+
+.one-col img{
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+ 
+}
+.one-col p{
+    width: 52%;
+    font-size: 77%;
+    margin: auto;
+    padding-bottom: 2%;
+    line-height: 154%;
+}
+.one-col span{
+  font-weight: bold;
+    letter-spacing: 2px;
+}
+.full-photo{
+  width: 100%;
+}
+.full-photo img{
+  width: 100%;
+}
+/* ================================================ */
+/*       SECTION-FORM                             */
+/* ============================================ */
+.makeappointment{
+  width: 100%;
+  margin: auto;
+}
+.label{
+ 
+}
+.label h5{
+    font-size: 219%;
+    width: 86%;
+    padding: 7% 0;
+    margin: auto;
+}
+input,textarea{
+  display: block;
+  margin-bottom: 5%;
+  padding: 3%;
+  width: 100%;
+  font-weight:300;
+  text-transform: capitalize;
+  border: solid 1px rgba(0, 0, 0, 0.356);
+}
+textarea{
+  height: 150px;
+}
+input[type="submit"]{
+  width: 20%;
+    background-color: #9FD9DD;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+    font-size: 80%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.30s;
+}
+input[type="submit"]:hover{
+    background-color: #7ca7aa;
+    color: white;
+}
+/* =================================== */
+/*             FOOTER                */
+/* =============================== */
+footer{
+  background-color: #333333;
+  color: white;
+  padding:4% 0;
+  font-size: 75%;
+  font-family: 'playfair display', sans-serif;
+}
+.last-text{
+  text-align: center;
+}
+.last-text p{
+  padding-bottom: 10%;
+  width: 39%;
+    margin: auto;
+    font-family: 'playfair display', sans-serif;
+}
+.last-text span{
+  display: block;
+}
